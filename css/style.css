@@ -68,12 +68,20 @@ p {
     line-height: 30px;
 }
 
+.background-footer {
+    background-color: #333333;
+}
+
 .text-white {
     color: white;
 }
 
 .text-dark-yellow {
     color: #fdc15f;
+}
+
+.text-lilla-chiaro {
+    color: #c9c7f1;
 }
 
 .card-background-white {
@@ -310,10 +318,14 @@ p {
 
 /*FOOTER*/
 
-footer .col-100 {
-    background-color: darkgreen;
+footer {
+    text-align: center;
+    height: 200px;
+    
 }
-
+footer p {
+    color: white;
+}
 
 
 
