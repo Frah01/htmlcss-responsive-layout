@@ -72,6 +72,10 @@ p {
     color: white;
 }
 
+.text-dark-yellow {
+    color: #fdc15f;
+}
+
 .card-background-white {
     background-color: white;
     border-radius: 50px;
@@ -279,12 +283,27 @@ p {
 }
 
 /*SESTA SEZIONE*/
+.row-sixth-section {
+    text-align: center;
+    color: white;
+}
 
-.col-100 {
-
-    
+.col-100 { 
     border-radius: 20px;
     margin: 10px;
+}
+#button-started{
+    background-color: white;
+    padding: 15px 60px;
+    color: #9792e4;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.row-sixth-section a {
+    color: white;
 }
 
 /*FINE SESTA SEZIONE*/
@@ -406,7 +425,22 @@ footer .col-100 {
 
 
 /*MEDIA SESTA SEZIONE*/
-/********************/
+
+@media screen and (min-width: 768px) {
+    .row-sixth-section{
+       max-width: 60%;
+       margin: 0 auto;
+        
+    }
+    }
+    @media screen and (min-width: 992px) {
+        .row-sixth-section{
+           max-width: 50%;
+           margin: 0 auto;
+            
+        }
+        }
+ 
 /*FINE MEDIA SESTA SEZIONE*/
 
 
