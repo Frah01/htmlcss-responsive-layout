@@ -298,7 +298,6 @@ p {
 
 .col-100 { 
     border-radius: 20px;
-    margin: 10px;
 }
 #button-started{
     background-color: white;
@@ -320,13 +319,15 @@ p {
 
 footer {
     text-align: center;
-    height: 200px;
     
 }
 footer p {
     color: white;
 }
 
+footer a {
+    color: #9792e4;
+}
 
 
 
