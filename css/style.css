@@ -11,7 +11,7 @@
 }
 
 header {
-    background-color: blue;
+    background-color: #0084fd;
     height: 80px;
     margin-bottom: 20px;
 
@@ -37,6 +37,30 @@ header {
 .header-row {
     display: flex;
     justify-content: space-between;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    display: none;
+
+}
+
+.nav-bar li {
+    color: white;
+    padding: 10px;
+
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.fa-bars {
+    color: white;
 }
 
 /*UTILITY CLASS*/
@@ -231,10 +255,11 @@ p {
 }
 
 .second-row-third-section img {
-   width: 100%;
   border-radius: 100%;
   padding: 20px;
+  max-width: 100%;
 }
+
 
 
 
@@ -340,6 +365,24 @@ footer a {
 
 /*****************************************************/
 
+/*MEDIA HEADER*/
+
+@media screen and (min-width: 992px){
+    .nav-bar ul {
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width: 991px){
+    .ham {
+        display: none;
+    }
+}
+
+
+
+
 /*MEDIA PRIMA SEZIONE*/
 @media screen and (min-width: 768px) {
     .first-row-first-section{
@@ -355,8 +398,17 @@ footer a {
         justify-content: space-between;
     }
 
-    
+    .first-row-first-section .col-70 .card{
+        width: 50%;
+        padding: 30px;
+    }
+    .first-row-first-section .col-70 {
+        display: flex;
+    }
 
+    .first-row-first-section img {
+        max-width: 100%;
+    }
     .col-30{
         width: 30%;
     }
@@ -364,6 +416,8 @@ footer a {
     .col-70 {
         width: 68%;
     }
+
+
 }
 @media screen and (min-width: 992px){
     .container {
@@ -387,6 +441,25 @@ footer a {
 
 
 /*MEDIA TERZA SEZIONE*/
+@media screen and (min-width: 768px) {
+.second-row-third-section .first-card {
+    max-width: 20%;
+}
+.second-row-third-section .second-card {
+    max-width: 70%;
+    padding: 10px;
+}
+.second-row-third-section .col-20 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.second-row-third-section img {
+    width: 100%;
+    padding: 0;
+}
+} 
 
 /*FINE MEDIA TERZA SEZIONE*/
 
