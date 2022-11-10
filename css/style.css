@@ -478,6 +478,17 @@ footer a {
 @media screen and (min-width: 992px) {
     .row-second-section {
         flex-direction: row;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
+    .row-second-section img {
+        max-width: 80%;
+    }
+    .row-second-section .col-50 {
+        display: flex;
+        align-items: center;
     }
 }
 /*FINE MEDIA SECONDA SEZIONE*/
