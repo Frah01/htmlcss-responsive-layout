@@ -297,7 +297,9 @@ p {
 .second-row-third-section img {
   border-radius: 100%;
   padding: 20px;
-  max-width: 100%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
 
 
@@ -517,9 +519,10 @@ footer a {
 }
 
 .second-row-third-section img {
-    width: 100%;
-    padding: 0;
-}
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+  }
 } 
 
 /*FINE MEDIA TERZA SEZIONE*/
