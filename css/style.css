@@ -63,6 +63,42 @@ li a {
     color: white;
 }
 
+.ham {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0084fd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    left: -500%;
+  }
+
+  .ham:hover .dropdown-content {
+    display: block;
+  }
+
+.dropdown-content ul{
+    list-style-type: none;
+}
+.dropdown-content li {
+    color: white;
+    padding: 30px;
+    margin-top: 1px
+}
+.dropdown-content li:hover{
+    background-color: #6dbafd;
+    cursor: pointer;
+    border: 1px solid grey;
+    transition: 0.5s;
+}
+
+
 /*UTILITY CLASS*/
 
 .padding-10 {
