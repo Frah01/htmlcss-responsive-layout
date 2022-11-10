@@ -343,6 +343,15 @@ p {
     border-radius: 100%;
 }
 
+.row-fifth-section .fa-quote-left {
+    position: absolute;
+    left: 160px;
+    color: #9792e4;
+}
+.relative-fifth-section {
+    position: relative
+}
+
 .row-fifth-section a {
     background-color: #9792e4;
     padding: 10px 20px;
@@ -538,8 +547,11 @@ footer a {
     .row-fifth-section{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        
+        justify-content: space-between;   
+    }
+
+    .row-fifth-section .fa-quote-left {    
+        left: 100px;
     }
     }
 
