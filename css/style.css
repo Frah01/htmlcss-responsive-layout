@@ -205,7 +205,8 @@ p {
 }
 
 .first-row-first-section img {
-    max-width: 80%;
+    width: 100%;
+    vertical-align: bottom;
 }
 
 .first-row-first-section h2 {
@@ -458,14 +459,14 @@ footer a {
     }
 
     .first-row-first-section img {
-        max-width: 100%;
+        vertical-align: bottom;
     }
     .col-30{
-        width: 30%;
+        max-width: 30%;
     }
 
     .col-70 {
-        width: 68%;
+        max-width: 68%;
     }
 
 
@@ -475,6 +476,7 @@ footer a {
         max-width: 80%;
         margin: 0 auto;
     }
+    
 }
 /*FINE MEDIA PRIMA SEZIONE*/
 
