@@ -504,6 +504,7 @@ footer a {
 .second-row-third-section .second-card {
     max-width: 70%;
     padding: 10px;
+    text-align: left;
 }
 .second-row-third-section .col-20 {
     display: flex;
