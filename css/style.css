@@ -37,6 +37,7 @@ header {
 .header-row {
     display: flex;
     justify-content: space-between;
+    margin: 0px 10px;
 }
 
 .nav-bar ul {
@@ -468,7 +469,7 @@ footer a {
 }
 @media screen and (min-width: 992px){
     .container {
-        max-width: 80%;
+        width: 80%;
         margin: 0 auto;
     }
     .first-row-first-section .col-70 .card{
