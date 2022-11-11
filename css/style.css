@@ -297,12 +297,15 @@ p {
 }
 
 .second-row-third-section img {
-  border-radius: 100%;
-  padding: 20px;
-  width: 300px;
-  height: 300px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }
+.second-row-third-section .first-card {
+    padding: 10px;
+  }
+
 
 
 
@@ -526,11 +529,12 @@ footer a {
 }
 
 .second-row-third-section img {
-    border-radius: 100%;
-    width: 200px;
-    height: 200px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
   }
-} 
+}
+
 
 /*FINE MEDIA TERZA SEZIONE*/
 
