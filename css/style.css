@@ -206,8 +206,8 @@ p {
 }
 
 .first-row-first-section img {
-    width: 100%;
-    vertical-align: bottom;
+    max-width: 250px;
+    display: block;
 }
 
 .first-row-first-section h2 {
@@ -454,14 +454,13 @@ footer a {
     
 
     .first-row-first-section img {
-        vertical-align: bottom;
-        max-width: 70%;
+        max-width: 300px;
     }
-    .col-30{
+    .first-row-first-section .col-30{
         max-width: 30%;
     }
 
-    .col-70 {
+    .first-row-first-section .col-70 {
         max-width: 68%;
     }
 
