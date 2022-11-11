@@ -583,8 +583,11 @@ footer a {
     .row-fifth-section .fa-quote-left {    
         left: 100px;
     }
+    .row-fifth-section .col-70 {
+        max-width: 68%;
     }
 
+}
 /*FINE MEDIA QUINTA SEZIONE*/
 
 
